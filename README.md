@@ -1,6 +1,7 @@
 # ArabicNumberizer
-Personally helper website to switch English numbers to Arabic numbers
 0123456789 -> ٠١٢٣٤٥٦٧٨٩
+
+Personally helper website to switch English numbers to Arabic numbers
 
 ...
 
