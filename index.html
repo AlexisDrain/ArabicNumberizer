@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<title>ArabicNumberizer</title>
+	
+<script language="Javascript">
+// Alex Clay. English-to-Arabic numbers translation
+var arabicNumbersMap =
+[
+"&\#1632;","&\#1633;","&\#1634;","&\#1635;","&\#1636;",
+"&\#1637;","&\#1638;","&\#1639;","&\#1640;","&\#1641;"
+];
+
+function getArabicNumbers()
+{
+	var newStr = "";
+	
+	str = String(document.getElementById("myNum").value);
+	
+	if (str[0] == "-"){
+		newStr += "-";
+	} else if (str[0] == "+"){
+		newStr += "+";
+	}
+
+    for (i = 0; i < str.length; i +=1) {
+
+		if (arabicNumbersMap[parseInt(str.charAt(i))] != undefined) {
+			newStr += arabicNumbersMap[parseInt(str.charAt(i))];
+		}
+	}
+
+	document.getElementById("result").innerHTML = newStr;
+	console.log (document.getElementById("result"));
+}
+</script>
+</head>
+
+<body>
+<form action="javascript:getArabicNumbers()" method="post">
+	<input type = "text" id = "myNum" value = "0123456789" />
+	<input type = "submit" value = "Submit" />
+</form>
+<h1 id="result"></h1>
+</body>
+
+
+</html>
