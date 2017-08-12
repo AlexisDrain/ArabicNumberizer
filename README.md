@@ -6,4 +6,4 @@ https://mudaraljundi.github.io/ArabicNumberizer/
 
 ...
 
-I was vehemently surprised when I couldn't find an online tool to switch English numbers Arabic numbers. I whipped this up real quick and I use it frequently for my localization work :)
+I was vehemently surprised when I couldn't find an online tool to switch English numbers to Arabic. I whipped this up real quick and I use it frequently for my localization work :)
