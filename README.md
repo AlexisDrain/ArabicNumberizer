@@ -2,7 +2,7 @@
 0123456789 -> ٠١٢٣٤٥٦٧٨٩
 
 Helper website to switch English numerals to Arabic numerals (for use in Modern Standard Arabic اللغة العربية الفصحى الحديثة).  
-https://mudaraljundi.github.io/ArabicNumberizer/
+https://mudaraljundi.github.io/Eastern-Arabic-Numberizer/
 
 ...
 
